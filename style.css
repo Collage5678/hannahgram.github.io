@@ -11,22 +11,24 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #216;
+    background-color: #345;
+		color:black;
 }
 
-ul.topnav li {float: left;}
-ul.topnav li a:hover:not(.active) {background-color: #111;
-margin-left: 10px}
+ul.topnav li {display: inline-block;}
+ul.topnav li a:hover:not(.active) {background-color: #281;
+margin-left: 0px}
 
 ul.topnav li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 20px 0px 20px 220px;
+    padding: 20px 70px 20px 70px;
     text-decoration: none;
+;
 }
 
-ul.topnav li a.active {background-color: #ba7861;}
+ul.topnav li a.active {background-color: #532}
 
 ul.topnav li.right {float: right;}
 
@@ -39,23 +41,20 @@ ul.topnav li.right {float: right;}
 /*end nav bar*/
 
 body { 
-  background-image: url(https://www.dropbox.com/s/jhin553cwld2ozd/taupe.jpg?raw=1);
+  background-image: url("https://www.dropbox.com/s/4inrit5jqq97sa4/taupe%20-%20Copy.jpg?raw=1");
 		background-repeat: repeat;
 }
 
 .logo {
 	display: block;
 	margin: auto;
-	width: 500px;
-	height: 400px;
+	width: 550px;
+	height: 550px;
 	margin-bottom: 100px
 }
 
-.lace {
-	margin-top: 300px;
-}
 
-.lace { 
-  background-image: url("https://photos-1.dropbox.com/t/2/AAAaHlt5kCxYn61T90KL5mlJSoFzrOGLY5NOf27S2ezLnA/12/639696465/jpeg/32x32/1/_/1/2/Lace.jpg/EMHyt5gFGDkgAigC/Qr1yo8dubZRx5xaTDkLHK1VgG2GpIsgvpTRt2_ssN9U?size=1280x960&size_mode=3");
+.lacey { 
+  background-image: url("https://www.dropbox.com/s/xsuccqquoakr6qg/Lace.jpg?raw=1");
 		background-repeat: repeat-x;
 }
