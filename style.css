@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher:700');
+
 body {
 	background-image: url("https://www.dropbox.com/s/4inrit5jqq97sa4/taupe%20-%20Copy.jpg?raw=1");
 		background-repeat: repeat;
@@ -28,11 +30,13 @@ ul.topnav {
     overflow: hidden;
     background-color: ;
 		color:black;
+	font-family: "Philosopher";
+	font-size: 125%;
 }
 
 ul.topnav li {display: inline-block;}
 
-ul.topnav li a:hover:not(.active) {background-color: #9c9c5a;}
+ul.topnav li a:hover:not(.active) {background-image: url("https://www.dropbox.com/s/chju3e06noxbluo/burlap%20-%20Copy.jpg?raw=1");}
 
 ul.topnav li a {
     display: block;
@@ -49,6 +53,7 @@ ul.topnav li.right {float: right;}
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
+		ul.lacey {background-image:none;}
 }
 
 
